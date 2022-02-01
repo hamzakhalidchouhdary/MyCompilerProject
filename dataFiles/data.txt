@@ -1,0 +1,10 @@
+abc.read();
+table.read(ID,Name,DOB).sort(ID,asc);
+table.read().filter(ID == 56 & city == 'Islamabad');
+table.scheme(id num ,user_name varchar(20),DOB datetime).(id);
+table.append(3,'name','13-JAN-1987');
+table.append(25,'remat').(id,user_name);
+table.replace(user_name).('ali raza').filter(id == 30);
+table.replace(userName,city).('ali Kamal','Islamabad','560').filter(userName == 'ali Jamal');
+table.replace(userName,city,Code,DOB).('ali Kamal','Islamabad','560').filter(userName == 'ali Jamal');
+table.remove(id < 10);

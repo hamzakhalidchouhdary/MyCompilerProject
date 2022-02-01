@@ -1,0 +1,6 @@
+table.read(id,user_name,DOB).filter(id < 50).sort(id,asc);
+table.scheme(id num ,user_name varchar(20),DOB datetime).(id);
+table.append(3,'name','13-JAN-1987');
+table.append(25,'remat').(id,user_name);
+table.replace('ali raza').(user_name).filter(id == 30);
+table.remove(id < 10);
